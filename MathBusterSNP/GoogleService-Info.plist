@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCaJLabVOamWRQ2EYu9NlqmH5C2C_SC4ac</string>
+	<key>GCM_SENDER_ID</key>
+	<string>105413982016</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lalazov.yunus.MathBusterSNP</string>
+	<key>PROJECT_ID</key>
+	<string>mathbuster-4f146</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mathbuster-4f146.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:105413982016:ios:a18f34cd80464eeb946ca5</string>
+</dict>
+</plist>

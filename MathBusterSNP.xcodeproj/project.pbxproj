@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065033B4488ADAE5B753A39D /* Pods_MathBusterSNP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20CE88EFF90D470A53D5EE7 /* Pods_MathBusterSNP.framework */; };
+		85111CCE2CE4DC6A007F17FA /* firestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85111CCD2CE4DC50007F17FA /* firestore.swift */; };
+		85418F6F2CD0EE0D0034DFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85418F642CD0EE0D0034DFF4 /* Assets.xcassets */; };
+		85418F712CD0EE0D0034DFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85418F672CD0EE0D0034DFF4 /* LaunchScreen.storyboard */; };
+		85418F732CD0EE0D0034DFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85418F632CD0EE0D0034DFF4 /* AppDelegate.swift */; };
+		85418F742CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85418F6A2CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodeld */; };
+		85418F752CD0EE0D0034DFF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85418F6B2CD0EE0D0034DFF4 /* SceneDelegate.swift */; };
+		85418F762CD0EE0D0034DFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85418F6C2CD0EE0D0034DFF4 /* ViewController.swift */; };
+		859913412CE1ED4F0085E32F /* correct-6033.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 859913402CE1ED4F0085E32F /* correct-6033.mp3 */; };
+		859913432CE1ED570085E32F /* wronganswer-37702.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 859913422CE1ED570085E32F /* wronganswer-37702.mp3 */; };
+		859913452CE1F49C0085E32F /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859913442CE1F4950085E32F /* loginVC.swift */; };
+		8599134C2CE21DA90085E32F /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599134B2CE21D8B0085E32F /* mainVC.swift */; };
+		8599134E2CE2241C0085E32F /* registerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8599134D2CE224110085E32F /* registerVC.swift */; };
+		85B838EA2CDB90A4002E4360 /* uiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B838E92CDB9096002E4360 /* uiVC.swift */; };
+		85CE91622CE23D1300951FB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85CE91612CE23D1300951FB3 /* GoogleService-Info.plist */; };
+		85CE91642CE2423E00951FB3 /* tabcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CE91632CE2423700951FB3 /* tabcontroller.swift */; };
+		85CE91912CE2448900951FB3 /* ratingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CE91902CE2447D00951FB3 /* ratingVC.swift */; };
+		85CE91932CE24C5200951FB3 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CE91922CE24C4B00951FB3 /* tableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A8CC79FB52C143AEBD04DF2 /* Pods-MathBusterSNP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBusterSNP.release.xcconfig"; path = "Target Support Files/Pods-MathBusterSNP/Pods-MathBusterSNP.release.xcconfig"; sourceTree = "<group>"; };
+		85111CCD2CE4DC50007F17FA /* firestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firestore.swift; sourceTree = "<group>"; };
+		85418F632CD0EE0D0034DFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85418F642CD0EE0D0034DFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85418F652CD0EE0D0034DFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85418F662CD0EE0D0034DFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85418F6B2CD0EE0D0034DFF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85418F6C2CD0EE0D0034DFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85418F6E2CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathBusterSNP.xcdatamodel; sourceTree = "<group>"; };
+		859913402CE1ED4F0085E32F /* correct-6033.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "correct-6033.mp3"; sourceTree = "<group>"; };
+		859913422CE1ED570085E32F /* wronganswer-37702.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wronganswer-37702.mp3"; sourceTree = "<group>"; };
+		859913442CE1F4950085E32F /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		8599134B2CE21D8B0085E32F /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		8599134D2CE224110085E32F /* registerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerVC.swift; sourceTree = "<group>"; };
+		85B3870A2CD0ED2C005F6C57 /* MathBusterSNP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathBusterSNP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B838E92CDB9096002E4360 /* uiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiVC.swift; sourceTree = "<group>"; };
+		85CE91612CE23D1300951FB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85CE91632CE2423700951FB3 /* tabcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabcontroller.swift; sourceTree = "<group>"; };
+		85CE91902CE2447D00951FB3 /* ratingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratingVC.swift; sourceTree = "<group>"; };
+		85CE91922CE24C4B00951FB3 /* tableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
+		A20CE88EFF90D470A53D5EE7 /* Pods_MathBusterSNP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathBusterSNP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4815492DAAA4E9E821DB94A /* Pods-MathBusterSNP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBusterSNP.debug.xcconfig"; path = "Target Support Files/Pods-MathBusterSNP/Pods-MathBusterSNP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85B387072CD0ED2C005F6C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065033B4488ADAE5B753A39D /* Pods_MathBusterSNP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1983102C667A50B00968E45E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4815492DAAA4E9E821DB94A /* Pods-MathBusterSNP.debug.xcconfig */,
+				7A8CC79FB52C143AEBD04DF2 /* Pods-MathBusterSNP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4FB340F8A675C0C1BE7C2DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20CE88EFF90D470A53D5EE7 /* Pods_MathBusterSNP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85418F6D2CD0EE0D0034DFF4 /* MathBusterSNP */ = {
+			isa = PBXGroup;
+			children = (
+				85CE91612CE23D1300951FB3 /* GoogleService-Info.plist */,
+				8599134A2CE21D2C0085E32F /* Sounds */,
+				859913492CE21D080085E32F /* Controller */,
+				859913482CE21D000085E32F /* View */,
+				859913472CE21CF20085E32F /* Model1 */,
+				85418F632CD0EE0D0034DFF4 /* AppDelegate.swift */,
+				85418F642CD0EE0D0034DFF4 /* Assets.xcassets */,
+				85418F652CD0EE0D0034DFF4 /* Info.plist */,
+				85418F672CD0EE0D0034DFF4 /* LaunchScreen.storyboard */,
+				85418F6A2CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodeld */,
+				85418F6B2CD0EE0D0034DFF4 /* SceneDelegate.swift */,
+			);
+			path = MathBusterSNP;
+			sourceTree = "<group>";
+		};
+		859913472CE21CF20085E32F /* Model1 */ = {
+			isa = PBXGroup;
+			children = (
+				85111CCD2CE4DC50007F17FA /* firestore.swift */,
+			);
+			path = Model1;
+			sourceTree = "<group>";
+		};
+		859913482CE21D000085E32F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85B838E92CDB9096002E4360 /* uiVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		859913492CE21D080085E32F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85CE91922CE24C4B00951FB3 /* tableViewCell.swift */,
+				85CE91902CE2447D00951FB3 /* ratingVC.swift */,
+				85CE91632CE2423700951FB3 /* tabcontroller.swift */,
+				85418F6C2CD0EE0D0034DFF4 /* ViewController.swift */,
+				8599134D2CE224110085E32F /* registerVC.swift */,
+				859913442CE1F4950085E32F /* loginVC.swift */,
+				8599134B2CE21D8B0085E32F /* mainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8599134A2CE21D2C0085E32F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				859913422CE1ED570085E32F /* wronganswer-37702.mp3 */,
+				859913402CE1ED4F0085E32F /* correct-6033.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		85B387012CD0ED2C005F6C57 = {
+			isa = PBXGroup;
+			children = (
+				85418F6D2CD0EE0D0034DFF4 /* MathBusterSNP */,
+				85B3870B2CD0ED2C005F6C57 /* Products */,
+				1983102C667A50B00968E45E /* Pods */,
+				4FB340F8A675C0C1BE7C2DE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85B3870B2CD0ED2C005F6C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B3870A2CD0ED2C005F6C57 /* MathBusterSNP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85B387092CD0ED2C005F6C57 /* MathBusterSNP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B387202CD0ED2E005F6C57 /* Build configuration list for PBXNativeTarget "MathBusterSNP" */;
+			buildPhases = (
+				F51B1D345C22DF417BCD5971 /* [CP] Check Pods Manifest.lock */,
+				85B387062CD0ED2C005F6C57 /* Sources */,
+				85B387072CD0ED2C005F6C57 /* Frameworks */,
+				85B387082CD0ED2C005F6C57 /* Resources */,
+				EFC26A6761A74D773CF95150 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathBusterSNP;
+			productName = MathBusterSNP;
+			productReference = 85B3870A2CD0ED2C005F6C57 /* MathBusterSNP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B387022CD0ED2C005F6C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					85B387092CD0ED2C005F6C57 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 85B387052CD0ED2C005F6C57 /* Build configuration list for PBXProject "MathBusterSNP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B387012CD0ED2C005F6C57;
+			productRefGroup = 85B3870B2CD0ED2C005F6C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B387092CD0ED2C005F6C57 /* MathBusterSNP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85B387082CD0ED2C005F6C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859913432CE1ED570085E32F /* wronganswer-37702.mp3 in Resources */,
+				85418F6F2CD0EE0D0034DFF4 /* Assets.xcassets in Resources */,
+				85CE91622CE23D1300951FB3 /* GoogleService-Info.plist in Resources */,
+				859913412CE1ED4F0085E32F /* correct-6033.mp3 in Resources */,
+				85418F712CD0EE0D0034DFF4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFC26A6761A74D773CF95150 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathBusterSNP/Pods-MathBusterSNP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathBusterSNP/Pods-MathBusterSNP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathBusterSNP/Pods-MathBusterSNP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51B1D345C22DF417BCD5971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathBusterSNP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85B387062CD0ED2C005F6C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8599134C2CE21DA90085E32F /* mainVC.swift in Sources */,
+				85CE91932CE24C5200951FB3 /* tableViewCell.swift in Sources */,
+				8599134E2CE2241C0085E32F /* registerVC.swift in Sources */,
+				85CE91642CE2423E00951FB3 /* tabcontroller.swift in Sources */,
+				85418F732CD0EE0D0034DFF4 /* AppDelegate.swift in Sources */,
+				85418F742CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodeld in Sources */,
+				85418F752CD0EE0D0034DFF4 /* SceneDelegate.swift in Sources */,
+				85418F762CD0EE0D0034DFF4 /* ViewController.swift in Sources */,
+				85CE91912CE2448900951FB3 /* ratingVC.swift in Sources */,
+				85111CCE2CE4DC6A007F17FA /* firestore.swift in Sources */,
+				859913452CE1F49C0085E32F /* loginVC.swift in Sources */,
+				85B838EA2CDB90A4002E4360 /* uiVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85418F672CD0EE0D0034DFF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85418F662CD0EE0D0034DFF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85B387212CD0ED2E005F6C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4815492DAAA4E9E821DB94A /* Pods-MathBusterSNP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MathBusterSNP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalazov.yunus.MathBusterSNP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B387222CD0ED2E005F6C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8CC79FB52C143AEBD04DF2 /* Pods-MathBusterSNP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MathBusterSNP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalazov.yunus.MathBusterSNP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85B387232CD0ED2E005F6C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85B387242CD0ED2E005F6C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85B387052CD0ED2C005F6C57 /* Build configuration list for PBXProject "MathBusterSNP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B387232CD0ED2E005F6C57 /* Debug */,
+				85B387242CD0ED2E005F6C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B387202CD0ED2E005F6C57 /* Build configuration list for PBXNativeTarget "MathBusterSNP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B387212CD0ED2E005F6C57 /* Debug */,
+				85B387222CD0ED2E005F6C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85418F6A2CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85418F6E2CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodel */,
+			);
+			currentVersion = 85418F6E2CD0EE0D0034DFF4 /* MathBusterSNP.xcdatamodel */;
+			path = MathBusterSNP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85B387022CD0ED2C005F6C57 /* Project object */;
+}
